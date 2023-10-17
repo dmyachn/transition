@@ -35,8 +35,8 @@ struct ContentView: View {
                                             .font(.title2)
                                             .bold()
                                     }
-                                    .padding()
                                     .matchedGeometryEffect(id: "Title", in: animation)
+                                    .padding()
                                     .foregroundStyle(.white)
                                 })
                                 .padding()
